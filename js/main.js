@@ -1,0 +1,1 @@
+$(document).ready((function(){$(".header__burger").on("click",(function(){$(".header__navigation-list").addClass("_active"),$(".page").addClass("_lock")})),$(".header__close-button, .header__navigation-link").on("click",(function(){$(".header__navigation-list").removeClass("_active"),$(".page").removeClass("_lock")}))}));
